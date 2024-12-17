@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "SeedMarketSizingTalk.html#national-seed-strategy-keystone-initiative---action-plan",
+    "href": "SeedMarketSizingTalk.html#national-seed-strategy-keystone-initiative---action-plan",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "National Seed Strategy Keystone Initiative - Action Plan",
+    "text": "National Seed Strategy Keystone Initiative - Action Plan\nAction 4. Enhance coordination (within DOI and across departments) to improve the native seed supply chain\n\nShort-term (implementation within 1st year of Action Plan)\n\nDevelop seed need projections for DOI agencies\n\nMid-term (implementation in 1-3 years of Action Plan)\n\nDevelop seed need projections for DOI agencies for one-, five-, and ten-year time frames using NISRC national, central coordinating data platform (see Action #1)\n\n\n\nThe Keystone plan has three objectives related to estimating the seed needs. Above I have reproduced 2 of the three, the third which is not represented - has a longer time frame for implementation. But should draw heavily from the Mid-Term estimates."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#historic-seed-purchase-data",
+    "href": "SeedMarketSizingTalk.html#historic-seed-purchase-data",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "historic seed purchase data",
+    "text": "historic seed purchase data\n\n\nData were collected in times when seed availability is low.\n\nthe right seed, was the available seed\n\nrestricted to just a couple DOI regions and agencies\n\nunable to provide information on wants or needs\n\n\n\nAll data are contextual - NISRC is a paradigm shift. \n\n\n\n\nWhile data exists on what BLM purchased and when, the purchasing is shaped largely by availability of seed. As we know the market leaves much to be desired, basing our estimates on low performance purchases will predict a low performance market.\nFurther much of these data are restricted to just a handful of regions and agencies relative to the DOI’s domain."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#hesitations-of-farmers-and-investors",
+    "href": "SeedMarketSizingTalk.html#hesitations-of-farmers-and-investors",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "hesitations of farmers and investors",
+    "text": "hesitations of farmers and investors\n\n\nLittle knowledge of native species behavior in cultivation\n\nLittle support from agricultural extensions\n\nThey are betting on the market\n\nMarket suffers in low fires years\n\n…\n\n\n\nYes, obviously farmers need more information on how to grow the seed, and get it to market. They understand that the value of seed varies in time, however the value of many commodities vary in time - even subsidized staples like corn and soy. If we can better predict the amount of seed which the gov’t can purchase and warehouse at points in time, we can decrease the variation in cost and bring it more in line like many other crops"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#hesitations-of-farmers-and-investors-1",
+    "href": "SeedMarketSizingTalk.html#hesitations-of-farmers-and-investors-1",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "hesitations of farmers and investors",
+    "text": "hesitations of farmers and investors\n\n\n\n“There’s gold in them thar hills”\n\n\n\n\n\n\nPrice of an ounce of gold from 1843-1856 - $20.671\n\n\n \n\n\n1Onlygold.com\n\n\n\nHowever, this is a country of boom and bust. Most of the West was founded by people looking for fortunes, and I think the possibilities of financial gains outweigh the restrictions that are imposed by a lack of knowledge of the crops."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#modelling-framework---short-term",
+    "href": "SeedMarketSizingTalk.html#modelling-framework---short-term",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "modelling framework - short term",
+    "text": "modelling framework - short term\nFour lifeforms: Grasses, Forbs, Shrubs, Trees\nSpatial techniques to estimate total burned areas form basis for simulating areas to treat\n\n\n\n\nModel\n\n\n\\[\n\\text{Cover Class}∗\\text{Slope Category} ∗ \\text{Restoration Type} * \\text{Seeding Method}* \\frac{\\text{Pure Live Seed}}{\\text{Area}}*\\text{Prop. of seed mix lifeform} = \\text{PLS required}\n\\]\n\n\n\n\n\n\nData Sources\n\n\n\\[\n\\frac{\\text{Cover Class} * \\text{Slope Category}}{\\text{Landscape}} * \\frac{\\text{Restoration Type} * \\text{Seeding Method} * \\text{Prop. Seed Mixes} * \\text{Prop. of Mix}}{\\text{Practicioner Knowledge}}\n\\]"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#modelling-framework---mid-term",
+    "href": "SeedMarketSizingTalk.html#modelling-framework---mid-term",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "modelling framework - mid term",
+    "text": "modelling framework - mid term\n\n\nten most commonly used species in each DOI region\nSubtracting these quantities from ‘short’ term results gives the amount of other species to grow.\n\n\n\n\n\n\nModel\n\n\n\\[\n\\text{Cover Class} * \\text{Slope Category} * \\text{Restoration Type} * \\text{Seeding Rate} * \\text{Prop. Seed Mixes} * \\text{Prop. of Mix} * \\text{PLS/lb}\n\\]\n\n\n\n\nData Sources\n\n\n\\[\n\\frac{\\text{Cover Class} * \\text{Slope Category}}{\\text{Landscape}} * \\frac{\\text{Restoration Type} * \\text{Seeding Rate} * \\text{Prop. Seed Mixes} * \\text{Prop. of Mix}}{\\text{Practicioner Knowledge}} * \\frac{\\text{PLS/lb}}{\\text{NRCS}}\n\\]\n\n\n\n\n\nModel Details\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImplementation\n\n\nBootstrap resampling from density functions based on the empirical distributions (bootstrap smoothing).\nThis allows us to ‘fill in’ the variance between respondents, and have more uniform responses in the simulations."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#modelling-framework---mid-term-1",
+    "href": "SeedMarketSizingTalk.html#modelling-framework---mid-term-1",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "modelling framework - mid term",
+    "text": "modelling framework - mid term\n\n\nExample\n\n\n\n“How much Elymus elymoides (species) is required on BLM land in DOI region 10 (domain) next year (grain)?”"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#modelling-framework---long-term",
+    "href": "SeedMarketSizingTalk.html#modelling-framework---long-term",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "modelling framework - long term",
+    "text": "modelling framework - long term\n\nAble to use realized data from central data coordinating platform"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#associating-seed-need-with-costs",
+    "href": "SeedMarketSizingTalk.html#associating-seed-need-with-costs",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "associating seed need with costs",
+    "text": "associating seed need with costs\n\n\n\nNeed to unify perspectives on the benefits of seed warehousing and fiscal costs\n\nfull warehouses preclude further acquisitions\nempty warehouses lead to seed need in fire years\n\n\nNeed a framework to balance these scenarios\n\n\n\n\n\nRegression, treatable areas\n\n\n\n\nTreatable ‘area’, assuming 100% seed longevity\n\n\n\n\n\nRegression with rolling averages\n\n\n\n\nTreatable ‘area’, assuming 100% seed longevity"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#a-survey-of-the-experts-i",
+    "href": "SeedMarketSizingTalk.html#a-survey-of-the-experts-i",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "a survey of the experts I",
+    "text": "a survey of the experts I\nThe US federal land management agencies have a plurality of the worlds restoration expertise.\n\n\n\n\nbiggest concern: completion\n\nminimize the number of questions each participant sees\n\n\nEstimate based survey\n\nallows faster completion, less do-not-finish respondents\n\n\n\n\n\n\nSurvey using R Shiny\n\nsupports ‘dependencies’ within surveys\nSends respondents from different regions and organizations different sets of questions\n\n\nAnticipated cost: $49 or $98"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#a-survey-of-the-experts-ii",
+    "href": "SeedMarketSizingTalk.html#a-survey-of-the-experts-ii",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "a survey of the experts II",
+    "text": "a survey of the experts II\nUsage of chained dependencies minimizes the number of fields respondents interact with"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#survey-questions-theme",
+    "href": "SeedMarketSizingTalk.html#survey-questions-theme",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "survey questions theme",
+    "text": "survey questions theme\n\nvariables which alter seed based restoration by a factor of 2 or more\n\n\nMaximum slope which drill seeding is used at?\n\nDifferences in PLS/area2 between drill, hydro, broadcast, and aerial seeding\n\nA general seed mix in scrub shrub has what proportions of graminoids, forbs, shrubs and tree seed?\n\nOf your most used species in scrub shrub\n\nWhat prop. of disturbed areas do you treat with them?\n\nWhat prop. of seed mixes are composed of them?"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#a-survey-of-costs-iv",
+    "href": "SeedMarketSizingTalk.html#a-survey-of-costs-iv",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "a survey of costs IV",
+    "text": "a survey of costs IV\nUnable to make sense of any seed requirement modelling results, without incorporating costs.\n\nA Nancy and R.C. adventure\n\n\n\n\nCosts (warehousing)\n- Seed death\n- Shipping (RCB adventure)\n\n\nDisposal\n\nInternal movement\n\nDecreasing seed prices?\n\n\n\n\n\n\nBenefits\n- Not buying seed from 3rd party warehouses\n- Ameliorating lost economic revenue from land degradation"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#fire",
+    "href": "SeedMarketSizingTalk.html#fire",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Fire",
+    "text": "Fire\n\n\nProducts on probability of fire under current fire regime (exist!)\n\nExtreme Value Theory - associate sizes, and probabilities (return intervals) with extreme events.\n\nMarkov chain for multiple burn fire return intervals\n\n\n\nAllow for more accurate predictions of burned areas in future."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#an-r-package-for-seed-need-estimates",
+    "href": "SeedMarketSizingTalk.html#an-r-package-for-seed-need-estimates",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "an R package for seed need estimates",
+    "text": "an R package for seed need estimates\n\n\n“the fundamental unit of distributable code in the R programming language”\n\nOpen, Reproducible, and Distributable Research With R Packages Josh Brinks\n\n\nReproducible\n\nAvoids duplication of efforts\nTestable across Operating Systems (OS)\n\nAllows others to engage with problems at their ‘head’\n\n\n\n\nTheoretically most of our values and work should be transferable to other municipal governments, as well as companies interested in producting seed. Further there is one very large DOI agency - the BIA - which I think may not be the most involved in this process, and it seems similar processes will need to be done in Puerto Rico, and the Pacific Islands may very well just more or less redo much of this themselves. So it would be great to be able to get folks onto the same playing field without much effort.\nIn the botany community sharing ‘scripts’ seems common, which yes we can do, but most important is actually developing code of the quality that it can be bound into packages and the functions can be shared. This allows us to ensure that the analyses are actually reproducible, and that the code works on multiple operating systems.\nForest service has for a long time loosely followed this tradition, although lot’s of their software is in external programs making maintenance very hard. Both the USGS and EPA are frequent developers of R packages for various analysis."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#units-of-analysis",
+    "href": "SeedMarketSizingTalk.html#units-of-analysis",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Units of Analysis",
+    "text": "Units of Analysis\n\n\n\n\n\nDOI Wide\nAgency (e.g. NPS) wide\nEcoregions\n\nSeed Transfer Zones\nDOI regions\n\n\n\n\n… and all combinations thereof!\n\n\n\n\n\n\nallows procurement of funds at high administrative levels\n\ndirecting of funds across field offices\n\n\n\n\n\n\nPursuing these options allow us to create estimates of the seed need for both lifeforms, and the most commonly used native species in each ecoregion. All fire information, and practices can then be subset to any of the combinations above. These can ensure that appropriate amounts of seed for each subset is being grown, and can facilitate planning at a relatively fine level."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#timeline",
+    "href": "SeedMarketSizingTalk.html#timeline",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Timeline",
+    "text": "Timeline"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#hours",
+    "href": "SeedMarketSizingTalk.html#hours",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Hours",
+    "text": "Hours\n\n\nReed 16-24 hours per week, occasionally 40.\nNancy & R.C. 8-16 hours per week.\nBecky 2-6 hours per week.\nRyan 2-6 hours per week.\nRebecca 16-24 hours per week."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#appendix",
+    "href": "SeedMarketSizingTalk.html#appendix",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Appendix",
+    "text": "Appendix"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#survey---short-term-i",
+    "href": "SeedMarketSizingTalk.html#survey---short-term-i",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "survey - short term I",
+    "text": "survey - short term I\n\n\nSurvey Result Relationships"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#survey---medium-term-ii",
+    "href": "SeedMarketSizingTalk.html#survey---medium-term-ii",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "survey - medium term II",
+    "text": "survey - medium term II\n\n\nSurvey Result Relationships"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#slide-test-test",
+    "href": "SeedMarketSizingTalk.html#slide-test-test",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "slide test test",
+    "text": "slide test test\ntest"
+  }
+]
