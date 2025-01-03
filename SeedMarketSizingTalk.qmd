@@ -433,7 +433,7 @@ gifski::gifski(png_files, gif_file = "./images/AnnualSummaryTreatableMississippi
 </details>
 
 <details> 
-<summary>Regression with rolling averages</summary>
+<summary>Regression, rolling averages</summary>
 ![Treatable 'area', assuming 100% seed longevity](images/AnnualSummaryTreatableMississippi.gif)
 </details>
 :::
@@ -538,7 +538,7 @@ Costs (warehousing)
 ::: {.fragment}
 Benefits  
   - Not buying seed from 3^rd^ party warehouses   
-  - Ameliorating lost economic revenue from land degradation  
+  - Ameliorating lost revenue from land degradation  
   
 :::
 :::
@@ -547,7 +547,8 @@ Benefits
 ## Fire
 
 ::: {.incremental}
-- Products on probability of fire under current fire regime (exist!)  
+- Spatial products on probability of fire under current regime (exist!)
+- forecasting central tendency of fire sizes    
 - Extreme Value Theory - associate sizes, and probabilities (return intervals) with extreme events.    
 - Markov chain for multiple burn fire return intervals  
 
@@ -555,6 +556,40 @@ Benefits
 
 - Allow for more accurate predictions of burned areas in future. 
 :::
+
+## Fire I 
+
+:::: {.columns}
+::: {.column width='35%'}
+::: {.vcenter}
+![Model selected for forecasting](images/ForecastModelSelection.gif){width=400}
+:::
+:::
+
+
+::: {.column width='65%'}
+::: {.vcenter}
+![Forecasts](images/fcasts.gif){width=550}
+:::
+:::
+::::
+
+## Fire II
+
+::: {.vcenter}
+![Preliminary Burn Return Intervals](images/FireReturnInterval.gif){width=600}
+:::
+
+<br> 
+
+
+## Fire III
+
+::: {.vcenter}
+![Markov Chains](images/MarkovChains.gif){width=600}
+:::
+
+<br> 
 
 ## an R package for seed need estimates   
 
@@ -567,7 +602,7 @@ Benefits
 ::: {.incremental}
 - Reproducible  
 - Avoids duplication of efforts 
-- Testable across Operating Systems (OS)  
+- Operate across multiple Operating Systems (OS)  
 - Allows others to engage with problems at their 'head'   
 :::
 
@@ -598,11 +633,10 @@ Forest service has for a long time loosely followed this tradition, although lot
 ::: {.column width='50%'}
 ::: {.fragment}
 ::: {.incremental}
-- DOI Wide
+- DOI regions
 - Agency (e.g. NPS) wide 
 - Ecoregions  
 - Seed Transfer Zones 
-- DOI regions 
 ::: 
 ::: 
 
@@ -806,7 +840,3 @@ rm(mt_dm_plot)
 
 </center> 
 </details>
-
-## slide test test
-
-test

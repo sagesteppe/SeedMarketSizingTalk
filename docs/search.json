@@ -60,7 +60,7 @@
     "href": "SeedMarketSizingTalk.html#associating-seed-need-with-costs",
     "title": "Estimating Seed Market Size in the US",
     "section": "associating seed need with costs",
-    "text": "associating seed need with costs\n\n\n\nNeed to unify perspectives on the benefits of seed warehousing and fiscal costs\n\nfull warehouses preclude further acquisitions\nempty warehouses lead to seed need in fire years\n\n\nNeed a framework to balance these scenarios\n\n\n\n\n\nRegression, treatable areas\n\n\n\n\nTreatable ‘area’, assuming 100% seed longevity\n\n\n\n\n\nRegression with rolling averages\n\n\n\n\nTreatable ‘area’, assuming 100% seed longevity"
+    "text": "associating seed need with costs\n\n\n\nNeed to unify perspectives on the benefits of seed warehousing and fiscal costs\n\nfull warehouses preclude further acquisitions\nempty warehouses lead to seed need in fire years\n\n\nNeed a framework to balance these scenarios\n\n\n\n\n\nRegression, treatable areas\n\n\n\n\nTreatable ‘area’, assuming 100% seed longevity\n\n\n\n\n\nRegression, rolling averages\n\n\n\n\nTreatable ‘area’, assuming 100% seed longevity"
   },
   {
     "objectID": "SeedMarketSizingTalk.html#a-survey-of-the-experts-i",
@@ -88,28 +88,49 @@
     "href": "SeedMarketSizingTalk.html#a-survey-of-costs-iv",
     "title": "Estimating Seed Market Size in the US",
     "section": "a survey of costs IV",
-    "text": "a survey of costs IV\nUnable to make sense of any seed requirement modelling results, without incorporating costs.\n\nA Nancy and R.C. adventure\n\n\n\n\nCosts (warehousing)\n- Seed death\n- Shipping (RCB adventure)\n\n\nDisposal\n\nInternal movement\n\nDecreasing seed prices?\n\n\n\n\n\n\nBenefits\n- Not buying seed from 3rd party warehouses\n- Ameliorating lost economic revenue from land degradation"
+    "text": "a survey of costs IV\nUnable to make sense of any seed requirement modelling results, without incorporating costs.\n\nA Nancy and R.C. adventure\n\n\n\n\nCosts (warehousing)\n- Seed death\n- Shipping (RCB adventure)\n\n\nDisposal\n\nInternal movement\n\nDecreasing seed prices?\n\n\n\n\n\n\nBenefits\n- Not buying seed from 3rd party warehouses\n- Ameliorating lost revenue from land degradation"
   },
   {
     "objectID": "SeedMarketSizingTalk.html#fire",
     "href": "SeedMarketSizingTalk.html#fire",
     "title": "Estimating Seed Market Size in the US",
     "section": "Fire",
-    "text": "Fire\n\n\nProducts on probability of fire under current fire regime (exist!)\n\nExtreme Value Theory - associate sizes, and probabilities (return intervals) with extreme events.\n\nMarkov chain for multiple burn fire return intervals\n\n\n\nAllow for more accurate predictions of burned areas in future."
+    "text": "Fire\n\n\nSpatial products on probability of fire under current regime (exist!)\nforecasting central tendency of fire sizes\n\nExtreme Value Theory - associate sizes, and probabilities (return intervals) with extreme events.\n\nMarkov chain for multiple burn fire return intervals\n\n\n\nAllow for more accurate predictions of burned areas in future."
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#fire-i",
+    "href": "SeedMarketSizingTalk.html#fire-i",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Fire I",
+    "text": "Fire I\n\n\n\n\n\n\nModel selected for forecasting\n\n\n\n\n\n\n\n\nForecasts"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#fire-ii",
+    "href": "SeedMarketSizingTalk.html#fire-ii",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Fire II",
+    "text": "Fire II\n\n\n\n\nPreliminary Burn Return Intervals"
+  },
+  {
+    "objectID": "SeedMarketSizingTalk.html#fire-iii",
+    "href": "SeedMarketSizingTalk.html#fire-iii",
+    "title": "Estimating Seed Market Size in the US",
+    "section": "Fire III",
+    "text": "Fire III\n\n\n\n\nMarkov Chains"
   },
   {
     "objectID": "SeedMarketSizingTalk.html#an-r-package-for-seed-need-estimates",
     "href": "SeedMarketSizingTalk.html#an-r-package-for-seed-need-estimates",
     "title": "Estimating Seed Market Size in the US",
     "section": "an R package for seed need estimates",
-    "text": "an R package for seed need estimates\n\n\n“the fundamental unit of distributable code in the R programming language”\n\nOpen, Reproducible, and Distributable Research With R Packages Josh Brinks\n\n\nReproducible\n\nAvoids duplication of efforts\nTestable across Operating Systems (OS)\n\nAllows others to engage with problems at their ‘head’\n\n\n\n\nTheoretically most of our values and work should be transferable to other municipal governments, as well as companies interested in producting seed. Further there is one very large DOI agency - the BIA - which I think may not be the most involved in this process, and it seems similar processes will need to be done in Puerto Rico, and the Pacific Islands may very well just more or less redo much of this themselves. So it would be great to be able to get folks onto the same playing field without much effort.\nIn the botany community sharing ‘scripts’ seems common, which yes we can do, but most important is actually developing code of the quality that it can be bound into packages and the functions can be shared. This allows us to ensure that the analyses are actually reproducible, and that the code works on multiple operating systems.\nForest service has for a long time loosely followed this tradition, although lot’s of their software is in external programs making maintenance very hard. Both the USGS and EPA are frequent developers of R packages for various analysis."
+    "text": "an R package for seed need estimates\n\n\n“the fundamental unit of distributable code in the R programming language”\n\nOpen, Reproducible, and Distributable Research With R Packages Josh Brinks\n\n\nReproducible\n\nAvoids duplication of efforts\nOperate across multiple Operating Systems (OS)\n\nAllows others to engage with problems at their ‘head’\n\n\n\n\nTheoretically most of our values and work should be transferable to other municipal governments, as well as companies interested in producting seed. Further there is one very large DOI agency - the BIA - which I think may not be the most involved in this process, and it seems similar processes will need to be done in Puerto Rico, and the Pacific Islands may very well just more or less redo much of this themselves. So it would be great to be able to get folks onto the same playing field without much effort.\nIn the botany community sharing ‘scripts’ seems common, which yes we can do, but most important is actually developing code of the quality that it can be bound into packages and the functions can be shared. This allows us to ensure that the analyses are actually reproducible, and that the code works on multiple operating systems.\nForest service has for a long time loosely followed this tradition, although lot’s of their software is in external programs making maintenance very hard. Both the USGS and EPA are frequent developers of R packages for various analysis."
   },
   {
     "objectID": "SeedMarketSizingTalk.html#units-of-analysis",
     "href": "SeedMarketSizingTalk.html#units-of-analysis",
     "title": "Estimating Seed Market Size in the US",
     "section": "Units of Analysis",
-    "text": "Units of Analysis\n\n\n\n\n\nDOI Wide\nAgency (e.g. NPS) wide\nEcoregions\n\nSeed Transfer Zones\nDOI regions\n\n\n\n\n… and all combinations thereof!\n\n\n\n\n\n\nallows procurement of funds at high administrative levels\n\ndirecting of funds across field offices\n\n\n\n\n\n\nPursuing these options allow us to create estimates of the seed need for both lifeforms, and the most commonly used native species in each ecoregion. All fire information, and practices can then be subset to any of the combinations above. These can ensure that appropriate amounts of seed for each subset is being grown, and can facilitate planning at a relatively fine level."
+    "text": "Units of Analysis\n\n\n\n\n\nDOI regions\nAgency (e.g. NPS) wide\nEcoregions\n\nSeed Transfer Zones\n\n\n\n\n… and all combinations thereof!\n\n\n\n\n\n\nallows procurement of funds at high administrative levels\n\ndirecting of funds across field offices\n\n\n\n\n\n\nPursuing these options allow us to create estimates of the seed need for both lifeforms, and the most commonly used native species in each ecoregion. All fire information, and practices can then be subset to any of the combinations above. These can ensure that appropriate amounts of seed for each subset is being grown, and can facilitate planning at a relatively fine level."
   },
   {
     "objectID": "SeedMarketSizingTalk.html#timeline",
@@ -145,12 +166,5 @@
     "title": "Estimating Seed Market Size in the US",
     "section": "survey - medium term II",
     "text": "survey - medium term II\n\n\nSurvey Result Relationships"
-  },
-  {
-    "objectID": "SeedMarketSizingTalk.html#slide-test-test",
-    "href": "SeedMarketSizingTalk.html#slide-test-test",
-    "title": "Estimating Seed Market Size in the US",
-    "section": "slide test test",
-    "text": "slide test test\ntest"
   }
 ]
