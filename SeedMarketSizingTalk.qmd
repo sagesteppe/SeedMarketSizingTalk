@@ -2,7 +2,7 @@
 title: "Estimating Seed Market Size in the US"
 subtitle: "from lifeforms to species"
 author: "Reed Clark Benkendorf"
-date: "2024-December-13"
+date: "2024-January-8"
 institute: "Chicago Botanic Garden"
 date-format: long
 format: 
